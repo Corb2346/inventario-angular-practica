@@ -1,3 +1,21 @@
-<p>login works!</p>
 
-<button (click)="login()"> go to main menu</button>
+<form class="form-container">
+
+    <div class="imgcontainer">
+      <img src="./assets/images/avatar.png" alt="Avatar" class="avatar" style="width:180px;">
+    </div>
+  
+    <div class="container">
+        
+      <label for="name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+  
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+  
+      <button class="login" type="submit" (click)="login()">Login</button>
+     
+    </div>
+  
+</form>
+

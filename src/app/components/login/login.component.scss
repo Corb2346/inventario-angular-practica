@@ -1,0 +1,46 @@
+.form-container{
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(208, 207, 207);
+    border-radius: 5px;
+    display: flex;
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    flex-direction: column;
+    align-items: initial;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+input{
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom:5px ;
+   
+}
+
+label{
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+button.login{
+    margin-top: 15px;
+}
+
+.login{
+    background-color: greenyellow;
+    height: 40px;
+    font-family: system-ui;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
