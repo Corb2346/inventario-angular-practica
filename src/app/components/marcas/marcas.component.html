@@ -1,3 +1,14 @@
-<p>marcas works!</p>
+<mat-toolbar class="main-bar">
 
-<app-lista-marcas></app-lista-marcas>
+    <span>Marcas</span>
+
+    <div class="btns-container">
+        <mat-icon title="return menu" (click)="returnMenu()">keyboard_backspace </mat-icon>
+
+        <img src="./assets/images/logout.png" alt="logOut Icon" title="Cerrar Sesion">
+      
+    </div>
+
+
+</mat-toolbar>
+<app-agregar-marcas></app-agregar-marcas>

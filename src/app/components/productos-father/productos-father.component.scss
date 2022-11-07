@@ -1,0 +1,34 @@
+.mat-toolbar{
+    background-color:  blueviolet;
+}
+
+span{
+    font-size: 35px;
+}
+.example-icon{
+    background: none;
+    border: none;
+    color: white;
+}
+
+mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+mat-icon{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
+
+.btns-container{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
