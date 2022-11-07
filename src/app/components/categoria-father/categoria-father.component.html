@@ -1,3 +1,17 @@
-<p>categoria-father works!</p>
+<mat-toolbar color="primary">
 
-<app-lista-categorias> </app-lista-categorias>
+
+    <span>Categorias </span>
+
+    <div class="btns-container">
+        <mat-icon title="return menu" (click)="returnMenu()">keyboard_backspace </mat-icon>
+
+        <img src="./assets/images/logout.png" alt="logOut Icon" title="Cerrar Sesion">
+      
+    </div>
+
+
+</mat-toolbar>
+
+
+<app-agregar-categoria></app-agregar-categoria>

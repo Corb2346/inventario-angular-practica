@@ -1,8 +1,7 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CategoriaFatherComponent } from './categoria-father.component';
 import { ListaCategoriasComponent } from './lista-categorias/lista-categorias.component';
-import { EditarCategoriaComponent } from './editar-categoria/editar-categoria.component';
 
 const routes: Routes = [
   {
@@ -12,10 +11,6 @@ const routes: Routes = [
       {
         path: '',
         component:ListaCategoriasComponent 
-      },
-      {
-        path:':id',
-        component:EditarCategoriaComponent
       },
       {
         path:'**',

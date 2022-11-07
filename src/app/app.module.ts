@@ -10,6 +10,8 @@ import { CategoriaFatherModule } from './components/categoria-father/categoria-f
 import { ProductoModule } from './components/productos-father/producto.module';
 import { MarcasModule } from './components/marcas/marcas.module';
 import { UsuariosModule } from './components/usuarios/usuarios.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { UsuariosModule } from './components/usuarios/usuarios.module';
     MarcasModule,
     UsuariosModule,
     AppRoutingModule,
+    SharedModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

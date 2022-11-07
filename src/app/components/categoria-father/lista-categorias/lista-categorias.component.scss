@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+
+  }
+
+.list-category-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: default;
+}
+
+.mat-header-cell{
+    font-size: x-large;
+    text-align: center;
+}
+
+.mat-cell{
+    font-size: large;
+    text-align: center;
+}

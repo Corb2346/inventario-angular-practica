@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LogoutService } from '../../services/logout.service';
 
 @Component({
   selector: 'app-categoria-father',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoriaFatherComponent implements OnInit {
 
-  constructor() { }
+  constructor(private Logout:LogoutService) { }
 
   ngOnInit(): void {
+  }
+
+  returnMenu(){
+    this.Logout.returnMainMenu();
   }
 
 }
